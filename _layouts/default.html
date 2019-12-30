@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+
+  <body style="font-family:'PT Serif' ,serif;
+    font-size: 1em;
+    color: #000000;
+    font-size: 1.1rem
+    ">
+    {% include header.html %}
+
+    <div class="content-wrapper">
+      <div class="content-wrapper__inner">
+        {{ content }}
+      </div>
+
+      {% include footer.html %}
+    </div>
+  </body>
+</html>

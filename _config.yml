@@ -1,0 +1,41 @@
+# Site settings
+title: Abdullah Mohamed
+description: 'Sr. Machine Learning Engineer'
+url: 'abdullahmohamed.github.io'
+baseurl: '/AbdullahMohamed'
+
+author:
+  name: 'Abdullah Mohamed'
+  email: abdulla.moh95@gmail.com
+  twitter_username: AbdullahM955
+  facebook_username: abdullah.mohamed.98892
+  github_username:  AbdullahMohamed55
+  linkedin_username:  abdullah-mohamed-h-2a689a140
+  cv: https://drive.google.com/file/d/0Bx48ttTQWTrXeFdGV3FlZzZScnR0dkxTWllaZUh1SEdoUlNz/view?usp=sharing
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
+
+# Build settings
+destination: _site
+paginate: 10
+permalink: /:year/:title/
+markdown: kramdown
+highlighter: rouge
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+plugins: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
