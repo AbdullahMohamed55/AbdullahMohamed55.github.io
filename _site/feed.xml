@@ -3,10 +3,10 @@
   <channel>
     <title>Abdullah Mohamed</title>
     <description>Sr. Machine Learning Engineer</description>
-    <link>http://localhost:4000/AbdullahMohamed/</link>
-    <atom:link href="http://localhost:4000/AbdullahMohamed/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 30 Dec 2019 03:35:01 +0200</pubDate>
-    <lastBuildDate>Mon, 30 Dec 2019 03:35:01 +0200</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Mon, 30 Dec 2019 18:08:03 +0200</pubDate>
+    <lastBuildDate>Mon, 30 Dec 2019 18:08:03 +0200</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -20,8 +20,8 @@ In my free time i am a photographer I take photos of new places that I visit als
 
 </description>
         <pubDate>Fri, 08 Jan 2016 17:04:23 +0200</pubDate>
-        <link>http://localhost:4000/AbdullahMohamed/2016/welcome-to-jekyll/</link>
-        <guid isPermaLink="true">http://localhost:4000/AbdullahMohamed/2016/welcome-to-jekyll/</guid>
+        <link>http://localhost:4000/2016/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/welcome-to-jekyll/</guid>
         
         <category>jekyll</category>
         
